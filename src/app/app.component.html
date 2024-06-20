@@ -1,0 +1,20 @@
+<div class="container">
+
+  <div class="titleTag">
+    <h3>Random Quote Generator</h3>
+  </div>
+
+  <div class="randomQuote">
+    <h5>Today's Quote</h5>
+    <p>{{QuoteToday}} <br /><span>{{writtenBy}}</span></p>
+  </div>
+
+  <div class="footAction">
+    <div class="actBtns">
+      <button (click)="generateQuote()">Generate Quote</button>
+      <button (click)="CopyQuote()">Copy Quote</button>
+    </div>
+    <p>Powered By VelPS</p>
+  </div>
+
+</div>
